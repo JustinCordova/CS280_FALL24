@@ -1,0 +1,17 @@
+Incorrect Octal Literal 02583 at Line: 6
+Total Number of Lines: 9
+Number of Words: 32
+Number of Decimal Literals: 7
+Number of Hexadecimal Literals: 3
+Number of Octal Literals: 3
+Number of Binary Literals: 0
+
+List of Decimal-Literals and their number of occurrences:
+1025: 2
+1234: 3
+3456: 1
+45: 1
+
+List of Octal-Literals and their number of occurrences:
+00101010: 1
+0101010: 2

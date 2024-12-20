@@ -1,0 +1,16 @@
+cd /Users/justincordova/Dropbox/CS/vsc/CS280_FALL24/PA3
+
+clang++ -std=c++17 -o PA3 prog3.cpp parserInterp.cpp val.cpp lex.cpp
+./PA3 TC/testprog15
+
+clang++ -std=c++17 -o PA3 prog3.cpp parserInterp.cpp val.cpp lex.cpp
+./PA3 TC/testprog1
+
+chmod +x run.sh
+./run.sh 
+
+chmod +x sum.sh
+./sum.sh
+
+gcc -o PA3 prog3.cpp parseInterp.cpp val.cpp lex.cpp
+./PA3 PA3TC/testprog1

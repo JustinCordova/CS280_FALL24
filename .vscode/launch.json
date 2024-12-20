@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/justincordova/Dropbox/CS/vsc/CS280_FALL24/PA2",
+      "program": "/Users/justincordova/Dropbox/CS/vsc/CS280_FALL24/PA2/build/Debug/outDebug"
+    }
+  ]
+}

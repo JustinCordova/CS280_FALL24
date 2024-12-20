@@ -1,0 +1,20 @@
+PLUS + 1
+MULT * 1
+DIV / 2
+MINUS - 2
+REM % 3
+EQ == 4
+GTHAN > 4
+LTHAN < 4
+NEQ != 4
+ASSOP = 5
+AND && 6
+OR || 6
+NOT ! 6
+ADDASSOP += 7
+SUBASSOP -= 7
+MULASSOP *= 7
+DIVASSOP /= 7
+REM % 7
+ASSOP = 7
+         

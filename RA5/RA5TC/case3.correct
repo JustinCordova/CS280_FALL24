@@ -1,0 +1,11 @@
+RCONST: (23.5)
+SCONST: "Please type the coordinates of three points"
+RCONST: (-15.25)
+ICONST: (+125)
+BCONST: (true)
+ICONST: (4321)
+RCONST: (-.725)
+CCONST: 'T'
+PLUS: [+]
+ICONST: (625)
+BCONST: (False)

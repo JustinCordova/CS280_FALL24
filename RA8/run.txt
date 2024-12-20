@@ -1,0 +1,8 @@
+clang++ -std=c++17 -o RA8 RA8prog.cpp val.cpp
+./RA8 -add
+
+g++ -o RA8 RA8prog.cpp val.cpp
+./RA8 -add
+
+g++ -o RA8 RA8prog.cpp val.cpp
+./RA8 -add

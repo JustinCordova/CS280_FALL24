@@ -1,0 +1,16 @@
+Incorrect Hexadecimal Literal 0x25dg3 at Line: 2
+Incorrect Hexadecimal Literal 0X34&d at Line: 2
+Total Number of Lines: 4
+Number of Words: 12
+Number of Decimal Literals: 0
+Number of Hexadecimal Literals: 9
+Number of Octal Literals: 0
+Number of Binary Literals: 0
+
+List of Hex-Literals and their number of occurrences:
+0X6700: 1
+0x369b2: 1
+0x6700: 1
+0xEDCB: 1
+0xaBcC: 1
+0xedcb: 4

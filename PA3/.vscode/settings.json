@@ -1,0 +1,18 @@
+{
+  "files.associations": {
+    "iosfwd": "cpp",
+    "string": "cpp",
+    "filesystem": "cpp",
+    "iostream": "cpp",
+    "ostream": "cpp",
+    "__locale": "cpp",
+    "ios": "cpp",
+    "map": "cpp",
+    "__hash_table": "cpp",
+    "__tree": "cpp",
+    "string_view": "cpp",
+    "unordered_map": "cpp",
+    "__bit_reference": "cpp",
+    "__string": "cpp"
+  }
+}

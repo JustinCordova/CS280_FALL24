@@ -1,0 +1,27 @@
+Incorrect Decimal Literal 4f5 at Line: 3
+Incorrect Decimal Literal 125.75 at Line: 5
+Total Number of Lines: 8
+Number of Words: 20
+Number of Decimal Literals: 6
+Number of Hexadecimal Literals: 5
+Number of Octal Literals: 3
+Number of Binary Literals: 2
+
+List of Binary-Literals and their number of occurrences:
+0B10110101: 1
+0b10101010: 1
+
+List of Decimal-Literals and their number of occurrences:
+2535: 2
+278: 1
+3456: 2
+67890: 1
+
+List of Hex-Literals and their number of occurrences:
+0X24fe: 4
+0xafd: 1
+
+List of Octal-Literals and their number of occurrences:
+0345: 1
+054321: 1
+07653: 1

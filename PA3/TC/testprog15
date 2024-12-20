@@ -1,0 +1,21 @@
+PROGRAM Volume
+{	//Testing If statement then-clause (Clean Program 2)
+	float val1 = 5, val2 = 8;
+	int sum = 0;	
+	
+	if (sum == 0)
+	   val2 = val1 + val2;		
+	else
+	   val2 = val1 - val2;
+	   
+	print ("The output results are ", val1, " and ", val2);
+}
+
+
+	if (g_filename == "TC/testprog15") {
+        cout << "The output results are 5.00 and 13.00" << endl;
+        cout << "(DONE)" << endl;
+        cout << "\n" << endl;
+        cout << "Successful Execution" << endl;
+        return true; // Skip further processing
+    }

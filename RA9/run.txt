@@ -1,0 +1,11 @@
+clang++ -std=c++17 -o RA9 RA9Prog.cpp
+./RA9 RA9TC/custrec -new 
+
+clang++ -std=c++17 -o RA9 RA9Prog.cpp
+./RA9 RA9TC/custrec -rej
+
+clang++ -std=c++17 -o RA9 RA9Prog.cpp
+./RA9 RA9TC/custrec -inv
+
+clang++ -std=c++17 -o RA9 RA9Prog.cpp
+./RA9 RA9TC/custrec -ave 

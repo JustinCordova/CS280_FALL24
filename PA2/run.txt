@@ -1,0 +1,32 @@
+##PA2
+#macOS
+clang++ -std=c++17 -o PA2 prog2.cpp parser.cpp lex.cpp
+./PA2 PA2TC/testprog1
+
+g++ -std=c++17 -o PA2 prog2.cpp parser.cpp lex.cpp
+./PA2 PA2TC/testprog1
+
+clang++ -o prog2.exe prog2.cpp parser.cpp lex.cpp -std=c++11
+
+chmod +x run.zsh
+./run.zsh
+chmod +x run.bash
+./run.bash
+chmod +x summary.zsh
+./summary.zsh
+#windows
+g++ prog2.cpp parser.cpp lex.cpp -o PA2
+./PA2 PA2TC/testprog1
+
+##RA7
+clang++ -std=c++17 -o RA7 RA7.cpp
+./RA7 RA7TC/case1
+
+##PA1 
+#macOS
+clang++ -std=c++17 -o lexer main.cpp lex.cpp
+./lexer PA1TC/prog1 -all -id -num -str -char -bool -kw
+#windows
+g++ -std=c++17 -o lexer main.cpp lex.cpp
+.\lexer PA1TC\prog1 -all -id -num -str -char -bool -
+      

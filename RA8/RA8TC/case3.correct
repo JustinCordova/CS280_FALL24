@@ -1,0 +1,119 @@
+ErrorVal=ERROR
+intVal1=18
+intVal2=6
+doubleVal1=9.25
+doubleVal2=4.00
+StrVal1=CS280
+StrVal2=Fall 2024
+chVal1=S
+chVal2=z
+ERROR == 18 is ERROR
+ERROR == 6 is ERROR
+ERROR == 9.25 is ERROR
+ERROR == 4.00 is ERROR
+ERROR == CS280 is ERROR
+ERROR == Fall 2024 is ERROR
+ERROR == S is ERROR
+ERROR == z is ERROR
+ERROR == true is ERROR
+ERROR == false is ERROR
+18 == ERROR is ERROR
+18 == 6 is false
+18 == 9.25 is false
+18 == 4.00 is false
+18 == CS280 is ERROR
+18 == Fall 2024 is ERROR
+18 == S is false
+18 == z is false
+18 == true is ERROR
+18 == false is ERROR
+6 == ERROR is ERROR
+6 == 18 is false
+6 == 9.25 is false
+6 == 4.00 is false
+6 == CS280 is ERROR
+6 == Fall 2024 is ERROR
+6 == S is false
+6 == z is false
+6 == true is ERROR
+6 == false is ERROR
+9.25 == ERROR is ERROR
+9.25 == 18 is false
+9.25 == 6 is false
+9.25 == 4.00 is false
+9.25 == CS280 is ERROR
+9.25 == Fall 2024 is ERROR
+9.25 == S is ERROR
+9.25 == z is ERROR
+9.25 == true is ERROR
+9.25 == false is ERROR
+4.00 == ERROR is ERROR
+4.00 == 18 is false
+4.00 == 6 is false
+4.00 == 9.25 is false
+4.00 == CS280 is ERROR
+4.00 == Fall 2024 is ERROR
+4.00 == S is ERROR
+4.00 == z is ERROR
+4.00 == true is ERROR
+4.00 == false is ERROR
+CS280 == ERROR is ERROR
+CS280 == 18 is ERROR
+CS280 == 6 is ERROR
+CS280 == 9.25 is ERROR
+CS280 == 4.00 is ERROR
+CS280 == Fall 2024 is false
+CS280 == S is ERROR
+CS280 == z is ERROR
+CS280 == true is ERROR
+CS280 == false is ERROR
+Fall 2024 == ERROR is ERROR
+Fall 2024 == 18 is ERROR
+Fall 2024 == 6 is ERROR
+Fall 2024 == 9.25 is ERROR
+Fall 2024 == 4.00 is ERROR
+Fall 2024 == CS280 is false
+Fall 2024 == S is ERROR
+Fall 2024 == z is ERROR
+Fall 2024 == true is ERROR
+Fall 2024 == false is ERROR
+S == ERROR is ERROR
+S == 18 is false
+S == 6 is false
+S == 9.25 is ERROR
+S == 4.00 is ERROR
+S == CS280 is ERROR
+S == Fall 2024 is ERROR
+S == z is false
+S == true is ERROR
+S == false is ERROR
+z == ERROR is ERROR
+z == 18 is false
+z == 6 is false
+z == 9.25 is ERROR
+z == 4.00 is ERROR
+z == CS280 is ERROR
+z == Fall 2024 is ERROR
+z == S is false
+z == true is ERROR
+z == false is ERROR
+true == ERROR is ERROR
+true == 18 is ERROR
+true == 6 is ERROR
+true == 9.25 is ERROR
+true == 4.00 is ERROR
+true == CS280 is ERROR
+true == Fall 2024 is ERROR
+true == S is ERROR
+true == z is ERROR
+true == false is false
+false == ERROR is ERROR
+false == 18 is ERROR
+false == 6 is ERROR
+false == 9.25 is ERROR
+false == 4.00 is ERROR
+false == CS280 is ERROR
+false == Fall 2024 is ERROR
+false == S is ERROR
+false == z is ERROR
+false == true is false

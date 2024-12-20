@@ -1,0 +1,8 @@
+RCONST: (23.5)
+ICONST: (5)
+DOT: [.]
+RCONST: (15.7)
+DOT: [.]
+IDENT: <and>
+DOT: [.]
+ERR: {0.758.} error at line no. 3

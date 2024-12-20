@@ -1,0 +1,24 @@
+Incorrect Binary Literal 0b101%1 at Line: 5
+Incorrect Binary Literal 0B2583 at Line: 7
+Total Number of Lines: 9
+Number of Words: 32
+Number of Decimal Literals: 8
+Number of Hexadecimal Literals: 1
+Number of Octal Literals: 3
+Number of Binary Literals: 2
+
+List of Binary-Literals and their number of occurrences:
+0b0101010: 2
+
+List of Decimal-Literals and their number of occurrences:
+1025: 1
+1234: 1
+3456: 1
+4321: 3
+456: 2
+
+List of Hex-Literals and their number of occurrences:
+0x2535: 1
+
+List of Octal-Literals and their number of occurrences:
+045: 3

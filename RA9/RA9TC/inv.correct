@@ -1,0 +1,25 @@
+List of invalid gas customers records:
+
+Gas Utility Customer
+Utility Customer Account Number: 235742
+Gas Used (in cubic meters): 6.75
+total Charge: 28.6875
+
+Gas Utility Customer
+Utility Customer Account Number: 246892
+Gas Used (in cubic meters): 9.75
+total Charge: 41.4375
+
+
+List of invalid electricity customers records:
+
+Electric Utility Customer
+Utility Customer Account Number: 135792
+Electricity Used (in kWattHour): 75
+total Charge: 22.5
+
+Electric Utility Customer
+Utility Customer Account Number: 135790
+Electricity Used (in kWattHour): 15.25
+total Charge: 4.575
+
