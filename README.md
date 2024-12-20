@@ -20,26 +20,26 @@ The **Interpreter** evaluates these tokens and executes instructions directly, s
   - Clean separation between lexical analysis and interpretation.
 
 Mini-C Language EBNF
-Prog ::= PROGRAM IDENT CompStmt
-StmtList ::= Stmt { Stmt }
-Stmt ::= DeclStmt | ControlStmt | CompStmt
-DeclStmt ::= ( INT | FLOAT | BOOL | CHAR | STRING ) VarList ;
-VarList ::= Var [= Expr] { ,Var [= Expr]}
-ControlStmt ::= AssgnStmt ; | IfStmt | PrintStmt ;
-PrintStmt ::= PRINT (ExprList)
-CompStmt ::= ‘{‘ StmtList ‘}’
-IfStmt ::= IF (Expr) Stmt [ ELSE Stmt ]
-AssgnStmt ::= Var ( = | += | -= | *= | /= | %= ) Expr
-Var ::= IDENT
-ExprList ::= Expr { , Expr }
-Expr ::= LogANDExpr { || LogANDRxpr }
-LogANDExpr ::= EqualExpr { && EqualExpr }
-EqualExpr ::= RelExpr [ (== | != ) RelExpr ]
-RelExpr ::= AddExpr [ ( < | > ) AddExpr ]
-AddExpr :: MultExpr { ( + | - ) MultExpr }
-MultExpr ::= UnaryExpr { ( * | / | % ) UnaryExpr }
-UnaryExpr ::= [( - | + | ! )] PrimaryExpr
-PrimaryExpr ::= IDENT | ICONST | RCONST | SCONST | BCONST | CCONST | ( Expr )
+- Prog ::= PROGRAM IDENT CompStmt
+- StmtList ::= Stmt { Stmt }
+- Stmt ::= DeclStmt | ControlStmt | CompStmt
+- DeclStmt ::= ( INT | FLOAT | BOOL | CHAR | STRING ) VarList ;
+- VarList ::= Var [= Expr] { ,Var [= Expr]}
+- ControlStmt ::= AssgnStmt ; | IfStmt | PrintStmt ;
+- PrintStmt ::= PRINT (ExprList)
+- CompStmt ::= ‘{‘ StmtList ‘}’
+- IfStmt ::= IF (Expr) Stmt [ ELSE Stmt ]
+- AssgnStmt ::= Var ( = | += | -= | *= | /= | %= ) Expr
+- Var ::= IDENT
+- ExprList ::= Expr { , Expr }
+- Expr ::= LogANDExpr { || LogANDRxpr }
+- LogANDExpr ::= EqualExpr { && EqualExpr }
+- EqualExpr ::= RelExpr [ (== | != ) RelExpr ]
+- RelExpr ::= AddExpr [ ( < | > ) AddExpr ]
+- AddExpr :: MultExpr { ( + | - ) MultExpr }
+- MultExpr ::= UnaryExpr { ( * | / | % ) UnaryExpr }
+- UnaryExpr ::= [( - | + | ! )] PrimaryExpr
+- PrimaryExpr ::= IDENT | ICONST | RCONST | SCONST | BCONST | CCONST | ( Expr )
 
 ## **Getting Started**
 
@@ -56,7 +56,7 @@ PrimaryExpr ::= IDENT | ICONST | RCONST | SCONST | BCONST | CCONST | ( Expr )
    cd PA3
 3. Compile and Run with specified file
    ```bash
-   g++ -o PA3 prog3.cpp parseInterp.cpp va.cpp parser.cpp
+   g++ -o PA3 prog3.cpp parserInterp.cpp val.cpp parser.cpp
    ./PA3 TC/testprog9
 
 # **RA1-9**
